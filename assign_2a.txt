@@ -1,0 +1,91 @@
+Microsoft Windows [Version 10.0.22631.3447]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\downloads\TE-IT-WADL-main\wad _git>mkdir assig_2_A
+
+E:\downloads\TE-IT-WADL-main\wad _git>cd assig_2_A
+
+E:\downloads\TE-IT-WADL-main\wad _git\assig_2_A>git --version
+git version 2.40.0.windows.1
+
+E:\downloads\TE-IT-WADL-main\wad _git\assig_2_A>gitinit
+'gitinit' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\downloads\TE-IT-WADL-main\wad _git\assig_2_A>git init
+Initialized empty Git repository in E:/downloads/TE-IT-WADL-main/wad _git/assig_2_A/.git/
+
+E:\downloads\TE-IT-WADL-main\wad _git\assig_2_A>git add .
+
+E:\downloads\TE-IT-WADL-main\wad _git\assig_2_A>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   demo.txt
+
+
+E:\downloads\TE-IT-WADL-main\wad _git\assig_2_A>git remote add origin "https://github.com/mayurikantilaldas311/WAD_assignment.git"
+
+E:\downloads\TE-IT-WADL-main\wad _git\assig_2_A>git commit -m "first commit"
+[master (root-commit) 08353d5] first commit
+ 1 file changed, 3 insertions(+)
+ create mode 100644 demo.txt
+
+E:\downloads\TE-IT-WADL-main\wad _git\assig_2_A>git status
+On branch master
+nothing to commit, working tree clean
+
+E:\downloads\TE-IT-WADL-main\wad _git\assig_2_A>git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 262 bytes | 262.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/mayurikantilaldas311/WAD_assignment.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+
+***after creating for 2nd file*** : 
+
+
+E:\downloads\TE-IT-WADL-main\wad _git\assig_2_A>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        demo2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\downloads\TE-IT-WADL-main\wad _git\assig_2_A>git add .
+
+E:\downloads\TE-IT-WADL-main\wad _git\assig_2_A>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   demo2.txt
+
+
+E:\downloads\TE-IT-WADL-main\wad _git\assig_2_A>git commit -m "2nd commit"
+[master 6ba2f93] 2nd commit
+ 1 file changed, 4 insertions(+)
+ create mode 100644 demo2.txt
+
+E:\downloads\TE-IT-WADL-main\wad _git\assig_2_A>git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 333 bytes | 333.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/mayurikantilaldas311/WAD_assignment.git
+   08353d5..6ba2f93  master -> master
+branch 'master' set up to track 'origin/master'.
+
+
